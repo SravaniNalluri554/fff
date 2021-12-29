@@ -14,6 +14,7 @@ public class App
         Vehicle obj2 =new Vehicle(30);
         obj2.accelerate();
         obj2.reFuel();
+        obj2.accelerate();
         
     }
 }
