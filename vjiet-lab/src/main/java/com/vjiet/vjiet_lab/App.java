@@ -16,7 +16,9 @@ public class App
         obj2.reFuel();
         obj2.accelerate();
         FuelPump fuelpump =new FuelPump();
+        FuelPump fuelpump1 =new FuelPump();
         fuelpump.show();
+        fuelpump1.show();
         
         
         
