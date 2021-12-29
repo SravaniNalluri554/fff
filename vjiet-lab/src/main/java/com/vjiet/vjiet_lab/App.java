@@ -19,6 +19,8 @@ public class App
         FuelPump fuelpump1 =new FuelPump();
         fuelpump.show();
         fuelpump1.show();
+        Demo demo= new Demo();
+        demo.hhh();
         
         
         
