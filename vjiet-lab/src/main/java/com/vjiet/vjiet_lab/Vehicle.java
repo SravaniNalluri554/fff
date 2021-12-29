@@ -16,11 +16,13 @@ package com.vjiet.vjiet_lab;
 	    public void reFuel(){
 	        remainingFuel = maxFuel;
 	        System.out.println(remainingFuel);
+	        //System.out.println(maxFuel);
 	        
 	    }
 
 	    public int getMaxFuel() {
 	        return maxFuel;
+	        
 	    }
 
 	    public int getRemainingFuel() {
@@ -33,7 +35,7 @@ package com.vjiet.vjiet_lab;
 
 	    public void accelerate() {
 	        remainingFuel--;
-	        System.out.println(remainingFuel)
+	        System.out.println(remainingFuel);
 ;	    }
 	}
 
