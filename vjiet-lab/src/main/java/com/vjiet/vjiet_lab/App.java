@@ -11,6 +11,8 @@ public class App
         System.out.println( "Hello World!" );
         First obj=new First(10,20);
         obj.display();
+        Vehicle obj2 =new Vehicle(30);
+        obj2.accelerate();
         
     }
 }
