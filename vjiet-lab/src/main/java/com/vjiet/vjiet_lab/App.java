@@ -13,6 +13,7 @@ public class App
         obj.display();
         Vehicle obj2 =new Vehicle(30);
         obj2.accelerate();
+        obj2.reFuel();
         
     }
 }

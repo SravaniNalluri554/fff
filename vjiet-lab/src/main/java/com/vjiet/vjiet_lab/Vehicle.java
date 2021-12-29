@@ -15,6 +15,8 @@ package com.vjiet.vjiet_lab;
 	    // this is not a car's responsibility.
 	    public void reFuel(){
 	        remainingFuel = maxFuel;
+	        System.out.println(remainingFuel);
+	        
 	    }
 
 	    public int getMaxFuel() {
